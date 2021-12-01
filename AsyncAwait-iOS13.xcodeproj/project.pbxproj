@@ -19,6 +19,7 @@
 		BF2F622C2756B2BF0025F8ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F622B2756B2BF0025F8ED /* ContentView.swift */; };
 		BF2F622E2756B4460025F8ED /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F622D2756B4460025F8ED /* PosterView.swift */; };
 		BF2F62302756B6710025F8ED /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F622F2756B6710025F8ED /* ActivityIndicator.swift */; };
+		BF7D7D7427581BF100417BE3 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D7D7327581BF100417BE3 /* Concurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BF2F622B2756B2BF0025F8ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF2F622D2756B4460025F8ED /* PosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
 		BF2F622F2756B6710025F8ED /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		BF7D7D7327581BF100417BE3 /* Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				BF2F622B2756B2BF0025F8ED /* ContentView.swift */,
 				BF2F622D2756B4460025F8ED /* PosterView.swift */,
 				BF2F622F2756B6710025F8ED /* ActivityIndicator.swift */,
+				BF7D7D7327581BF100417BE3 /* Concurrency.swift */,
 				BF2F62172756AFB80025F8ED /* Main.storyboard */,
 				BF2F621A2756AFB90025F8ED /* Assets.xcassets */,
 				BF2F621C2756AFB90025F8ED /* LaunchScreen.storyboard */,
@@ -163,6 +166,7 @@
 				BF2F622E2756B4460025F8ED /* PosterView.swift in Sources */,
 				BF2F62122756AFB80025F8ED /* AppDelegate.swift in Sources */,
 				BF2F62142756AFB80025F8ED /* SceneDelegate.swift in Sources */,
+				BF7D7D7427581BF100417BE3 /* Concurrency.swift in Sources */,
 				BF2F62302756B6710025F8ED /* ActivityIndicator.swift in Sources */,
 				BF2F62262756AFE80025F8ED /* Model.swift in Sources */,
 			);

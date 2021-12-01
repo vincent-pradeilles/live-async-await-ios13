@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State var loadingTask: Task<Void, Never>?
+    
     @State var movies: [Movie] = []
     
     var body: some View {
@@ -26,9 +28,12 @@ struct ContentView: View {
             }
         }
         .onAppear {
-            Task {
+            loadingTask = Task {
                 movies = await makeAsyncNetworkCall().results
             }
+        }
+        .onDisappear {
+            loadingTask?.cancel()
         }
     }
 }
