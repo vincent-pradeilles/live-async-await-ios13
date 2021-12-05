@@ -20,6 +20,8 @@
 		BF2F622E2756B4460025F8ED /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F622D2756B4460025F8ED /* PosterView.swift */; };
 		BF2F62302756B6710025F8ED /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F622F2756B6710025F8ED /* ActivityIndicator.swift */; };
 		BF7D7D7427581BF100417BE3 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D7D7327581BF100417BE3 /* Concurrency.swift */; };
+		BF7D7D76275CC82800417BE3 /* ModelPartTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D7D75275CC82800417BE3 /* ModelPartTwo.swift */; };
+		BF7D7D78275CC97200417BE3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D7D77275CC97200417BE3 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		BF2F622D2756B4460025F8ED /* PosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
 		BF2F622F2756B6710025F8ED /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		BF7D7D7327581BF100417BE3 /* Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency.swift; sourceTree = "<group>"; };
+		BF7D7D75275CC82800417BE3 /* ModelPartTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPartTwo.swift; sourceTree = "<group>"; };
+		BF7D7D77275CC97200417BE3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +77,13 @@
 				BF2F62112756AFB80025F8ED /* AppDelegate.swift */,
 				BF2F62132756AFB80025F8ED /* SceneDelegate.swift */,
 				BF2F62252756AFE80025F8ED /* Model.swift */,
+				BF7D7D75275CC82800417BE3 /* ModelPartTwo.swift */,
 				BF2F62272756B0020025F8ED /* CompletionAndCombine.swift */,
 				BF2F62292756B0580025F8ED /* Network.swift */,
 				BF2F62152756AFB80025F8ED /* ViewController.swift */,
 				BF2F622B2756B2BF0025F8ED /* ContentView.swift */,
 				BF2F622D2756B4460025F8ED /* PosterView.swift */,
+				BF7D7D77275CC97200417BE3 /* DetailView.swift */,
 				BF2F622F2756B6710025F8ED /* ActivityIndicator.swift */,
 				BF7D7D7327581BF100417BE3 /* Concurrency.swift */,
 				BF2F62172756AFB80025F8ED /* Main.storyboard */,
@@ -160,9 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2F62282756B0020025F8ED /* CompletionAndCombine.swift in Sources */,
+				BF7D7D78275CC97200417BE3 /* DetailView.swift in Sources */,
 				BF2F62162756AFB80025F8ED /* ViewController.swift in Sources */,
 				BF2F622C2756B2BF0025F8ED /* ContentView.swift in Sources */,
 				BF2F622A2756B0580025F8ED /* Network.swift in Sources */,
+				BF7D7D76275CC82800417BE3 /* ModelPartTwo.swift in Sources */,
 				BF2F622E2756B4460025F8ED /* PosterView.swift in Sources */,
 				BF2F62122756AFB80025F8ED /* AppDelegate.swift in Sources */,
 				BF2F62142756AFB80025F8ED /* SceneDelegate.swift in Sources */,

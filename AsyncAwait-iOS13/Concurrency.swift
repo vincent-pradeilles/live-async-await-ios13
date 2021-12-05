@@ -7,20 +7,20 @@
 
 import Foundation
 
-func aLongCall() async -> String {
+func aTwoSecondsCall() async -> String {
     try! await Task.sleep(nanoseconds: 2_000_000_000)
     
     return "Long call completed!"
 }
 
-func anotherLongCall() async -> String {
+func aThreeSecondsCall() async -> String {
     try! await Task.sleep(nanoseconds: 3_000_000_000)
     
     return "Another long call completed!"
 }
 
-func yetAnotherLongCall() async -> String {
-    try! await Task.sleep(nanoseconds: 2_000_000_000)
+func aOneSecondCall() async -> String {
+    try! await Task.sleep(nanoseconds: 1_000_000_000)
     
     return "Yet another long call completed!"
 }
@@ -28,9 +28,9 @@ func yetAnotherLongCall() async -> String {
 func run() async {
     let start = Date()
     
-    async let firstResult = aLongCall()
-    async let secondResult = anotherLongCall()
-    async let thirdResult = yetAnotherLongCall()
+    async let firstResult = aTwoSecondsCall()
+    async let secondResult = aThreeSecondsCall()
+    async let thirdResult = aOneSecondCall()
     
     await print(firstResult, secondResult, thirdResult)
     
@@ -41,7 +41,7 @@ func run() async {
     let results = await withTaskGroup(of: String.self) { group -> [String] in
         for _ in 0..<Int.random(in: 1..<10) {
             group.addTask {
-                await aLongCall()
+                await aTwoSecondsCall()
             }
         }
         
