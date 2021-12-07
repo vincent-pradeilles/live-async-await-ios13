@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B8FE6FB275F7F3D00D8E47C /* AsyncAwait_iOS13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FE6FA275F7F3D00D8E47C /* AsyncAwait_iOS13UITests.swift */; };
+		7B8FE6FD275F7F3D00D8E47C /* AsyncAwait_iOS13UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FE6FC275F7F3D00D8E47C /* AsyncAwait_iOS13UITestsLaunchTests.swift */; };
 		BF2F62122756AFB80025F8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F62112756AFB80025F8ED /* AppDelegate.swift */; };
 		BF2F62142756AFB80025F8ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F62132756AFB80025F8ED /* SceneDelegate.swift */; };
 		BF2F62162756AFB80025F8ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2F62152756AFB80025F8ED /* ViewController.swift */; };
@@ -24,7 +26,20 @@
 		BF7D7D78275CC97200417BE3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D7D77275CC97200417BE3 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7B8FE6FE275F7F3D00D8E47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2F62062756AFB80025F8ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2F620D2756AFB80025F8ED;
+			remoteInfo = "AsyncAwait-iOS13";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7B8FE6F8275F7F3D00D8E47C /* AsyncAwait-iOS13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AsyncAwait-iOS13UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8FE6FA275F7F3D00D8E47C /* AsyncAwait_iOS13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait_iOS13UITests.swift; sourceTree = "<group>"; };
+		7B8FE6FC275F7F3D00D8E47C /* AsyncAwait_iOS13UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait_iOS13UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF2F620E2756AFB80025F8ED /* AsyncAwait-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AsyncAwait-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2F62112756AFB80025F8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF2F62132756AFB80025F8ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +60,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7B8FE6F5275F7F3D00D8E47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF2F620B2756AFB80025F8ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,10 +77,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B8FE6F9275F7F3D00D8E47C /* AsyncAwait-iOS13UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FE6FA275F7F3D00D8E47C /* AsyncAwait_iOS13UITests.swift */,
+				7B8FE6FC275F7F3D00D8E47C /* AsyncAwait_iOS13UITestsLaunchTests.swift */,
+			);
+			path = "AsyncAwait-iOS13UITests";
+			sourceTree = "<group>";
+		};
 		BF2F62052756AFB80025F8ED = {
 			isa = PBXGroup;
 			children = (
 				BF2F62102756AFB80025F8ED /* AsyncAwait-iOS13 */,
+				7B8FE6F9275F7F3D00D8E47C /* AsyncAwait-iOS13UITests */,
 				BF2F620F2756AFB80025F8ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				BF2F620E2756AFB80025F8ED /* AsyncAwait-iOS13.app */,
+				7B8FE6F8275F7F3D00D8E47C /* AsyncAwait-iOS13UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +130,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7B8FE6F7275F7F3D00D8E47C /* AsyncAwait-iOS13UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8FE702275F7F3D00D8E47C /* Build configuration list for PBXNativeTarget "AsyncAwait-iOS13UITests" */;
+			buildPhases = (
+				7B8FE6F4275F7F3D00D8E47C /* Sources */,
+				7B8FE6F5275F7F3D00D8E47C /* Frameworks */,
+				7B8FE6F6275F7F3D00D8E47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B8FE6FF275F7F3D00D8E47C /* PBXTargetDependency */,
+			);
+			name = "AsyncAwait-iOS13UITests";
+			productName = "AsyncAwait-iOS13UITests";
+			productReference = 7B8FE6F8275F7F3D00D8E47C /* AsyncAwait-iOS13UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		BF2F620D2756AFB80025F8ED /* AsyncAwait-iOS13 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF2F62222756AFB90025F8ED /* Build configuration list for PBXNativeTarget "AsyncAwait-iOS13" */;
@@ -124,6 +175,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					7B8FE6F7275F7F3D00D8E47C = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = BF2F620D2756AFB80025F8ED;
+					};
 					BF2F620D2756AFB80025F8ED = {
 						CreatedOnToolsVersion = 13.2;
 					};
@@ -143,11 +198,19 @@
 			projectRoot = "";
 			targets = (
 				BF2F620D2756AFB80025F8ED /* AsyncAwait-iOS13 */,
+				7B8FE6F7275F7F3D00D8E47C /* AsyncAwait-iOS13UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7B8FE6F6275F7F3D00D8E47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF2F620C2756AFB80025F8ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,6 +224,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7B8FE6F4275F7F3D00D8E47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8FE6FD275F7F3D00D8E47C /* AsyncAwait_iOS13UITestsLaunchTests.swift in Sources */,
+				7B8FE6FB275F7F3D00D8E47C /* AsyncAwait_iOS13UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF2F620A2756AFB80025F8ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,6 +254,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7B8FE6FF275F7F3D00D8E47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2F620D2756AFB80025F8ED /* AsyncAwait-iOS13 */;
+			targetProxy = 7B8FE6FE275F7F3D00D8E47C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		BF2F62172756AFB80025F8ED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -202,6 +282,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7B8FE700275F7F3D00D8E47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentpradeilles.AsyncAwait-iOS13.AsyncAwait-iOS13UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AsyncAwait-iOS13";
+			};
+			name = Debug;
+		};
+		7B8FE701275F7F3D00D8E47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentpradeilles.AsyncAwait-iOS13.AsyncAwait-iOS13UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AsyncAwait-iOS13";
+			};
+			name = Release;
+		};
 		BF2F62202756AFB90025F8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -377,6 +491,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7B8FE702275F7F3D00D8E47C /* Build configuration list for PBXNativeTarget "AsyncAwait-iOS13UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8FE700275F7F3D00D8E47C /* Debug */,
+				7B8FE701275F7F3D00D8E47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BF2F62092756AFB80025F8ED /* Build configuration list for PBXProject "AsyncAwait-iOS13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
