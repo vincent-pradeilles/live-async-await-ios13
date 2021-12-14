@@ -47,6 +47,8 @@ func run() async {
         
         var results = [String]()
         
+        // Results will be ordered by task completion, and not by task creation
+        // This can be tricky!
         for await result in group {
             results.append(result)
         }
